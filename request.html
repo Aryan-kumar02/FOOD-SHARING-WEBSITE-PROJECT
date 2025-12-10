@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Food</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Request Food</h1>
+</header>
+
+<section class="form-container">
+    <form onsubmit="submitRequest(); return false;">
+        <input type="text" id="rname" placeholder="Your Name" required>
+        <input type="text" id="need" placeholder="Food Needed" required>
+        <input type="text" id="rlocation" placeholder="Your Location" required>
+        <button type="submit">Request Food</button>
+    </form>
+</section>
+
+<script src="assets/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Food</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Donate Food</h1>
+</header>
+
+<section class="form-container">
+    <form onsubmit="submitDonation(); return false;">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="food" placeholder="Food Item" required>
+        <input type="text" id="location" placeholder="Location" required>
+        <textarea id="notes" placeholder="Additional Notes"></textarea>
+        <button type="submit">Submit Donation</button>
+    </form>
+</section>
+
+<script src="assets/script.js"></script>
+
+</body>
+</html>
